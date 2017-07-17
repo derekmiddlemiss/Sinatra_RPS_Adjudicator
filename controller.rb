@@ -8,4 +8,7 @@ get '/:p1_move/:p2_move' do
   erb( :result )
 end 
 
+get '/welcome' do
+  erb( :welcome )
+end
 
